@@ -1,0 +1,27 @@
+.tasksItem {
+  background-color: var(--gray-500);
+  border: 1px solid var(--gray-400);
+  height: 72px;
+  border-radius: 8px;
+
+  display: flex;
+  justify-content: space-between;
+  gap: 1rem;
+  padding: 1rem;
+  margin-bottom: .75rem; 
+}
+
+.tasksItemContent {
+  width: 100%;
+}
+
+.tasksContent {
+  font-weight: var(--fw-normal);
+  font-size: var(--fs-small);
+  line-height: 1.4;
+}
+
+.completed {
+  text-decoration: line-through;
+  color: var(--gray-300);
+}
